@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"clas",
+				"class_id"
+			],
+			[
+				"find",
+				"find_index\tfind_index/2"
+			],
+			[
+				"sta",
+				"start_time_in_eastern"
+			],
+			[
 				"date",
 				"datetime"
 			],
@@ -261,53 +273,105 @@
 	},
 	"file_history":
 	[
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/exact-dependencies.json",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/exhibit.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/show.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/class.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170314195302_modify_class_starts_at.exs",
+		"/Users/mark/projects/mwindholtz/elm/hello_elm/assets/elm-package.json",
+		"/Users/mark/projects/mwindholtz/elm/hello_elm/README.md",
 		"/Users/mark/projects/mwindholtz/elm/hello_elm/assets/brunch-config.js",
+		"/Users/mark/projects/mwindholtz/elm/hello_elm/assets/package.json",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/member/show.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/member_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/class_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/class_controller_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170317194744_add_class_club.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/show.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/class/show.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/admin_class_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/form.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/member/form.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/member.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/factory.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/admin_class_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170311202435_add_view_preferences_current_class_id.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/admin_member_controller_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/integrations/activity_integration_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/class_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/member_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/integrations/login_integration_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/class.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/structure.sql",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/club_controller_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/plan_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/club/index.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/club_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/attendance_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170316215728_add_member_club.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/club.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/club/show.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_attendance_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/router.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/config/show.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/club/form.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/commitment_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/seeds.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/admin_member_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/club/edit.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/club/new.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/session/new.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/club_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170316200601_create_club.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/current_member.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/edit.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/member/edit.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Member.elm",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170316191602_add_members_notification_option.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20160822214451_activities_belongs_to_routine.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20160508230225_add_user_is_admin.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ElmActivityAdder.elm",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/class/index.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/class_view.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_current_member_view.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170316140239_add_view_preference_defaults.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_view_preference_view.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/test_helpers.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/view_preference.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_current_member_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ViewHelper.elm",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/scoreboard/index.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/lib/store/reporter.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/attendance.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Attendance.elm",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/scoreboard_controller.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/web.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ElmClassAttendance.elm",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/index.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/exhibit.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170309235100_create_class.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170316000110_modify_classes_starts_at_to_starts_on.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/attendance/index.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/date_range_test.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/timer.ex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/layout/app.html.eex",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/static/js/app.js",
+		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/exact-dependencies.json",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170314195302_modify_class_starts_at.exs",
+		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170311202435_add_view_preferences_current_class_id.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/docs/NOTES_Prog_Phoenix.txt",
 		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170314195302_re_create_class.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/factory.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/class_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/web.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/class_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/scoreboard_activity_controller.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/views/api_view_preference_view_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/exibit.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/activity/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/index.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_member/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/attendance/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/class/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/class/show.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/member/index.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/scoreboard_activity/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_view_preference_view.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/docs/NOTES_heroku.txt",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/commitment_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/seeds.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/attendance_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/store/reporter_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/class_view.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/docs/NOTES.txt",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/commitment_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/router.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/scoreboard/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/class_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/attendance_controller.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_activity_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/scoreboard_activity_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/attendances/index.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/attendance_view.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/activity_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ElmClassAttendance.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Attendance.elm",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/activity_controller.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/attendance/edit.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/attendance/new.html.eex",
@@ -320,75 +384,23 @@
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/plan/show.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_attendance_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_attendance_view.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_attendance_controller.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/cmd_activity_log.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/lib/store/reporter.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/channel_case.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/plan_repo.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ViewPreference.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/admin_class_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/view_preference.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/changeset_view.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/activity/show.html.eex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/commitment.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_commitment_view.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Commitment.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ViewHelper.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ElmActivityAdder.elm",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_commitment_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/attendance.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_workout_controller.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/routine_technique_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_workout_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_plan_controller_test.exs",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/commitment_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/current_member.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_activity_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/conn_case.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/static/vendor/adminclassattendance.js",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/elm/add_activities.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/ElmAdminClassAttendance.elmi",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/AdminClassAttendance.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/AdminClassAttendance.elmi",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/AdminClassAttendance.elmo",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/ElmAdminClassAttendance.elmo",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/ActivityAdder2.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/activity_chooser_presenter.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_current_member_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/scoreboard_technique_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_plan_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/workout_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/layout/app.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/workout_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/api_view_preference_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/api_current_member_view.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_current_member_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/commitment_view.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/controllers/admin_member_controller_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/plan_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Routine.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Activity.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Plan.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/elm/Member.elm",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_admin_class_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/plan/index.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/member.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/routine_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/static/js/app.js",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/controllers/api_view_preference_controller.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20161124152340_add_view_preference_date_offset.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20160829201109_add_techniques_category.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/models/attendance_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170311200115_create_attendance.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/priv/repo/migrations/20170311184858_add_commitments_status.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/member/show.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/session/new.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/new.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/scoreboard_activity_view.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/views/scoreboard_technique_view.ex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/form.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/admin_class/edit.html.eex",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/templates/config/show.html.eex"
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/support/conn_case.ex"
 	],
 	"find":
 	{
@@ -419,6 +431,62 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"club.name",
+			"member.club.name",
+			"member.club.name ",
+			"Admin Class Info",
+			"|",
+			"class_",
+			"@valid_attrs",
+			"login_or_register",
+			"follow_form",
+			"Add Activity and then see it in ",
+			"Profile Complete",
+			"selection_options",
+			"option",
+			"selection_options",
+			"club",
+			"valid_attrs",
+			"member_f",
+			"Admin Site Configuration",
+			"from",
+			"Commitment",
+			"club_path",
+			"Admin Site Configuration",
+			"admin",
+			"members",
+			"club_path",
+			"club_url",
+			"Univer",
+			"Profile Complete",
+			"selection_options",
+			"alter table",
+			"Edit Member",
+			"commitment_button",
+			":date_offset",
+			"ViewPreference.default",
+			"default",
+			"Only available to logged in Members",
+			"viewLoginNotice",
+			"Only available to logged in Members",
+			"cons",
+			"conds",
+			"case",
+			"Que",
+			"Scoreboard",
+			"occurs_on",
+			"Occurs On",
+			"Class",
+			"link",
+			"Starts at",
+			"starts_at",
+			"starts_on",
+			"starts_at",
+			"~N[",
+			"starts_at",
+			".now",
+			"now",
+			"datetime_selec",
 			"ElmClassAttendance",
 			"Elm",
 			"mani",
@@ -490,63 +558,7 @@
 			"commitment_path",
 			"commitments",
 			"commitment_path",
-			"view_preference_path",
-			"commitment_path",
-			"module view_preference",
-			"view_preference",
-			"TODO",
-			"Show plan",
-			"viewAtt",
-			"Kick.Repo",
-			"encode",
-			"viewAtt",
-			"import",
-			"where",
-			"conn.assigns.member",
-			"member",
-			"index",
-			"current_class_id",
-			"ViewPref",
-			"NewAttendances",
-			"index",
-			"currentClassId",
-			"attenda",
-			".class_id",
-			"class_id",
-			"4",
-			"ChangesetView",
-			"create",
-			"post",
-			"NewAttendance",
-			"postAtt",
-			"MarkPresent",
-			"comitment",
-			"Comitment",
-			"committment",
-			"Committment",
-			"post conn,",
-			"create",
-			"Repo.delete",
-			"attend",
-			"viewA",
-			"view",
-			"MarkPresent",
-			"get",
-			"Present",
-			"api",
-			"initialModel",
-			"NewAttendance",
-			"post",
-			"Activity",
-			"MarkPresent",
-			"Present",
-			"link",
-			"Present",
-			"def create(conn,",
-			"conn, :delete",
-			"Attendance",
-			"attend",
-			"attendance"
+			"view_preference_path"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -554,6 +566,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"admin_club_path",
 			"Exhibit",
 			"Member",
 			"Future Classes",
@@ -654,7 +667,7 @@
 	},
 	"output.find_results":
 	{
-		"height": 118.0
+		"height": 319.0
 	},
 	"pinned_build_system": "",
 	"project": "*.sublime-project",
@@ -670,28 +683,320 @@
 		"selected_items":
 		[
 			[
-				"elmcl",
-				"web/elm/ElmClassAttendance.elm"
-			],
-			[
-				"",
-				"web/static/js/app.js"
-			],
-			[
 				"app.js",
-				"web/static/js/app.js"
+				"assets/js/app.js"
 			],
 			[
-				"elm-stuff",
-				"web/elm/elm-stuff/exact-dependencies.json"
+				"show",
+				"web/templates/member/show.html.eex"
+			],
+			[
+				"membcon",
+				"web/controllers/member_controller.ex"
+			],
+			[
+				"classcont",
+				"web/controllers/class_controller.ex"
+			],
+			[
+				"class_controller_test.exs",
+				"test/controllers/class_controller_test.exs"
+			],
+			[
+				"admiclasscont",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"member",
+				"web/models/member.ex"
+			],
+			[
+				"admiclascont",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"admiclascontest",
+				"test/controllers/admin_class_controller_test.exs"
+			],
+			[
+				"memcont",
+				"web/controllers/member_controller.ex"
+			],
+			[
+				"factor",
+				"test/support/factory.ex"
+			],
+			[
+				"memconttest",
+				"test/controllers/admin_member_controller_test.exs"
+			],
+			[
+				"clascontest",
+				"test/controllers/class_controller_test.exs"
+			],
+			[
+				"membertest",
+				"test/models/member_test.exs"
+			],
+			[
+				"classtest",
+				"test/models/class_test.exs"
 			],
 			[
 				"class",
 				"web/models/class.ex"
 			],
 			[
+				"structure",
+				"priv/repo/structure.sql"
+			],
+			[
+				"activity_integration_test.exs",
+				"test/integrations/activity_integration_test.exs"
+			],
+			[
+				"login_integration_test.exs",
+				"test/integrations/login_integration_test.exs"
+			],
+			[
+				"memshow",
+				"web/templates/member/show.html.eex"
+			],
+			[
+				"plancont",
+				"web/controllers/plan_controller.ex"
+			],
+			[
+				"membercont",
+				"web/controllers/member_controller.ex"
+			],
+			[
+				"memberform",
+				"web/templates/member/form.html.eex"
+			],
+			[
+				"member_test.exs",
+				"test/models/member_test.exs"
+			],
+			[
 				"struct",
 				"priv/repo/structure.sql"
+			],
+			[
+				"facto",
+				"test/support/factory.ex"
+			],
+			[
+				"memtest",
+				"test/models/member_test.exs"
+			],
+			[
+				"club",
+				"web/models/club.ex"
+			],
+			[
+				"clubshow",
+				"web/templates/club/show.html.eex"
+			],
+			[
+				"clubfrm",
+				"web/templates/club/form.html.eex"
+			],
+			[
+				"api_attendance_controller.ex",
+				"web/controllers/api_attendance_controller.ex"
+			],
+			[
+				"attendance_controller.ex",
+				"web/controllers/attendance_controller.ex"
+			],
+			[
+				"commitment_controller.ex",
+				"web/controllers/commitment_controller.ex"
+			],
+			[
+				"clucont",
+				"web/controllers/club_controller.ex"
+			],
+			[
+				"clubcont",
+				"test/controllers/club_controller_test.exs"
+			],
+			[
+				"",
+				"web/router.ex"
+			],
+			[
+				"seed",
+				"priv/repo/seeds.exs"
+			],
+			[
+				"clubform",
+				"web/templates/club/form.html.eex"
+			],
+			[
+				"adminmemcont",
+				"web/controllers/admin_member_controller.ex"
+			],
+			[
+				"clubcontest",
+				"test/controllers/club_controller_test.exs"
+			],
+			[
+				"adminmemcontest",
+				"test/controllers/admin_member_controller_test.exs"
+			],
+			[
+				"clubcontroller",
+				"web/controllers/club_controller.ex"
+			],
+			[
+				"club_controller_test.exs",
+				"test/controllers/club_controller_test.exs"
+			],
+			[
+				"route",
+				"web/router.ex"
+			],
+			[
+				"clutest",
+				"test/models/club_test.exs"
+			],
+			[
+				"logshow",
+				"web/templates/config/show.html.eex"
+			],
+			[
+				"20170316200601_create_club.exs",
+				"priv/repo/migrations/20170316200601_create_club.exs"
+			],
+			[
+				"membershow",
+				"web/templates/member/show.html.eex"
+			],
+			[
+				"classshow",
+				"web/templates/class/show.html.eex"
+			],
+			[
+				"memberedit",
+				"web/templates/member/edit.html.eex"
+			],
+			[
+				"edit",
+				"web/templates/admin_class/edit.html.eex"
+			],
+			[
+				"clascont",
+				"web/controllers/class_controller.ex"
+			],
+			[
+				"classform",
+				"web/templates/admin_class/form.html.eex"
+			],
+			[
+				"index",
+				"web/templates/class/index.html.eex"
+			],
+			[
+				"commit",
+				"web/controllers/commitment_controller.ex"
+			],
+			[
+				"admicas",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"structu",
+				"priv/repo/structure.sql"
+			],
+			[
+				"elmact",
+				"web/elm/ElmActivityAdder.elm"
+			],
+			[
+				"view",
+				"web/models/view_preference.ex"
+			],
+			[
+				"apivi",
+				"web/views/api_view_preference_view.ex"
+			],
+			[
+				"viewh",
+				"web/elm/ViewHelper.elm"
+			],
+			[
+				"currmembview",
+				"web/views/api_current_member_view.ex"
+			],
+			[
+				"currentmembe",
+				"web/controllers/api_current_member_controller.ex"
+			],
+			[
+				"currentmember",
+				"web/controllers/current_member.ex"
+			],
+			[
+				"elmadd",
+				"web/elm/ElmActivityAdder.elm"
+			],
+			[
+				"classcontest",
+				"test/controllers/class_controller_test.exs"
+			],
+			[
+				"attend",
+				"web/models/attendance.ex"
+			],
+			[
+				"web",
+				"web/web.ex"
+			],
+			[
+				"admicont",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"scorebo",
+				"web/controllers/scoreboard_controller.ex"
+			],
+			[
+				"elmclass",
+				"web/elm/ElmClassAttendance.elm"
+			],
+			[
+				"exhibit",
+				"web/models/exhibit.ex"
+			],
+			[
+				"20170316000110_modify_classes_starts_at_to_starts_on.exs",
+				"priv/repo/migrations/20170316000110_modify_classes_starts_at_to_starts_on.exs"
+			],
+			[
+				"form",
+				"web/templates/admin_class/form.html.eex"
+			],
+			[
+				"admiclacont",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"ehibit",
+				"web/models/exhibit.ex"
+			],
+			[
+				"adminclass",
+				"web/controllers/admin_class_controller.ex"
+			],
+			[
+				"elmcl",
+				"web/elm/ElmClassAttendance.elm"
+			],
+			[
+				"elm-stuff",
+				"web/elm/elm-stuff/exact-dependencies.json"
 			],
 			[
 				"admin_class_controller_test.exs",
@@ -700,14 +1005,6 @@
 			[
 				"exhi",
 				"web/models/exhibit.ex"
-			],
-			[
-				"web",
-				"web/web.ex"
-			],
-			[
-				"seed",
-				"priv/repo/seeds.exs"
 			],
 			[
 				"ex",
@@ -746,23 +1043,7 @@
 				"web/templates/class/index.html.eex"
 			],
 			[
-				"clascont",
-				"web/controllers/class_controller.ex"
-			],
-			[
-				"classcont",
-				"web/controllers/class_controller.ex"
-			],
-			[
-				"route",
-				"web/router.ex"
-			],
-			[
 				"scoreindex",
-				"web/templates/scoreboard/index.html.eex"
-			],
-			[
-				"index",
 				"web/templates/scoreboard/index.html.eex"
 			],
 			[
@@ -782,10 +1063,6 @@
 				"web/controllers/attendance_controller.ex"
 			],
 			[
-				"attend",
-				"web/elm/Attendance.elm"
-			],
-			[
 				"elmcall",
 				"web/elm/ElmClassAttendance.elm"
 			],
@@ -794,16 +1071,8 @@
 				"web/controllers/activity_controller.ex"
 			],
 			[
-				"attendance_controller.ex",
-				"web/controllers/attendance_controller.ex"
-			],
-			[
 				"commcontest",
 				"test/controllers/commitment_controller_test.exs"
-			],
-			[
-				"commitment_controller.ex",
-				"web/controllers/commitment_controller.ex"
 			],
 			[
 				"atend",
@@ -858,10 +1127,6 @@
 				"test/controllers/api_attendance_controller_test.exs"
 			],
 			[
-				"admiclascont",
-				"web/controllers/admin_class_controller.ex"
-			],
-			[
 				"viewprefex",
 				"web/models/view_preference.ex"
 			],
@@ -876,10 +1141,6 @@
 			[
 				"viewpref",
 				"web/elm/ViewPreference.elm"
-			],
-			[
-				"show",
-				"web/templates/admin_class/show.html.eex"
 			],
 			[
 				"attd",
@@ -914,28 +1175,12 @@
 				"web/views/api_attendance_view.ex"
 			],
 			[
-				"view",
-				"web/elm/ViewHelper.elm"
-			],
-			[
-				"structu",
-				"priv/repo/structure.sql"
-			],
-			[
 				"apicomcont",
 				"web/controllers/api_commitment_controller.ex"
 			],
 			[
 				"commview",
 				"web/views/api_commitment_view.ex"
-			],
-			[
-				"commit",
-				"web/models/commitment.ex"
-			],
-			[
-				"elmact",
-				"web/elm/ElmActivityAdder.elm"
 			],
 			[
 				"elmclas",
@@ -948,238 +1193,6 @@
 			[
 				"apiattcont",
 				"web/controllers/api_attendance_controller.ex"
-			],
-			[
-				"viewpre",
-				"web/elm/ViewPreference.elm"
-			],
-			[
-				"elmac",
-				"web/elm/ElmActivityAdder.elm"
-			],
-			[
-				"atten",
-				"web/models/attendance.ex"
-			],
-			[
-				"api_attendance_controller.ex",
-				"web/controllers/api_attendance_controller.ex"
-			],
-			[
-				"structure",
-				"priv/repo/structure.sql"
-			],
-			[
-				"structr",
-				"priv/repo/structure.sql"
-			],
-			[
-				"viewpreferencecontrollertest",
-				"test/controllers/view_preference_controller_test.exs"
-			],
-			[
-				"apiplantest",
-				"test/controllers/api_plan_controller_test.exs"
-			],
-			[
-				"apiworkoutcontrollertest",
-				"test/controllers/api_workout_controller_test.exs"
-			],
-			[
-				"apicommcontest",
-				"test/controllers/api_commitment_controller_test.exs"
-			],
-			[
-				"routinetechniquecontrollertest",
-				"test/controllers/routine_technique_controller_test.exs"
-			],
-			[
-				"commitcontest",
-				"test/controllers/commitment_controller_test.exs"
-			],
-			[
-				"apiattcon",
-				"web/controllers/api_attendance_controller.ex"
-			],
-			[
-				"api_attendance_controller_test",
-				"test/controllers/api_attendance_controller_test.exs"
-			],
-			[
-				"api_commitments",
-				"test/controllers/api_commitment_controller_test.exs"
-			],
-			[
-				"facto",
-				"test/support/factory.ex"
-			],
-			[
-				"apiattendcon",
-				"test/controllers/api_attendance_controller_test.exs"
-			],
-			[
-				"committest",
-				"test/models/commitment_test.exs"
-			],
-			[
-				"api_attendance_view.ex",
-				"web/views/api_attendance_view.ex"
-			],
-			[
-				"attview",
-				"web/views/attendance_view.ex"
-			],
-			[
-				"attconttest",
-				"test/controllers/attendance_controller_test.exs"
-			],
-			[
-				"api_commitment_controller.ex",
-				"web/controllers/api_commitment_controller.ex"
-			],
-			[
-				"apicomv",
-				"web/views/api_commitment_view.ex"
-			],
-			[
-				"conn",
-				"test/support/conn_case.ex"
-			],
-			[
-				"comitview",
-				"web/views/api_commitment_view.ex"
-			],
-			[
-				"api_commitment_controller_test.exs",
-				"test/controllers/api_commitment_controller_test.exs"
-			],
-			[
-				"commitcont",
-				"web/controllers/api_commitment_controller.ex"
-			],
-			[
-				"classatt",
-				"web/elm/AdminClassAttendance.elm"
-			],
-			[
-				"elmacti",
-				"web/elm/ElmActivityAdder.elm"
-			],
-			[
-				"api_commitment_controller",
-				"web/controllers/api_commitment_controller.ex"
-			],
-			[
-				"api_activity_controller.ex",
-				"web/controllers/api_activity_controller.ex"
-			],
-			[
-				"api_workout_controller.ex",
-				"web/controllers/api_workout_controller.ex"
-			],
-			[
-				"api_current_member_controller_test.exs",
-				"test/controllers/api_current_member_controller_test.exs"
-			],
-			[
-				"activity_controller.ex",
-				"web/controllers/activity_controller.ex"
-			],
-			[
-				"actchoopres",
-				"web/models/activity_chooser_presenter.ex"
-			],
-			[
-				"admin_class_controller.ex",
-				"web/controllers/admin_class_controller.ex"
-			],
-			[
-				"scoreboard_technique_controller.ex",
-				"web/controllers/scoreboard_technique_controller.ex"
-			],
-			[
-				"api_plan_controller.ex",
-				"web/controllers/api_plan_controller.ex"
-			],
-			[
-				"actcont",
-				"web/controllers/activity_controller.ex"
-			],
-			[
-				"acticontest",
-				"test/controllers/activity_controller_test.exs"
-			],
-			[
-				"rout",
-				"web/router.ex"
-			],
-			[
-				"actadd",
-				"web/elm/ActivityAdder2.elm"
-			],
-			[
-				"workcontest",
-				"test/controllers/workout_controller_test.exs"
-			],
-			[
-				"workcon",
-				"web/controllers/workout_controller.ex"
-			],
-			[
-				"workoutcontroller",
-				"web/controllers/workout_controller.ex"
-			],
-			[
-				"actcontest",
-				"test/controllers/activity_controller_test.exs"
-			],
-			[
-				"activitycontroller",
-				"web/controllers/activity_controller.ex"
-			],
-			[
-				"apicurrv",
-				"web/views/api_current_member_view.ex"
-			],
-			[
-				"apicumem",
-				"web/controllers/api_current_member_controller.ex"
-			],
-			[
-				"commitmentview",
-				"web/views/api_commitment_view.ex"
-			],
-			[
-				"commitview",
-				"web/views/commitment_view.ex"
-			],
-			[
-				"aicom",
-				"test/controllers/api_commitment_controller_test.exs"
-			],
-			[
-				"api_commitment_controller_test",
-				"test/controllers/api_commitment_controller_test.exs"
-			],
-			[
-				"curmemview",
-				"web/views/api_current_member_view.ex"
-			],
-			[
-				"apicurmem",
-				"web/controllers/api_current_member_controller.ex"
-			],
-			[
-				"plancont",
-				"web/controllers/plan_controller.ex"
-			],
-			[
-				"currmemc",
-				"web/controllers/api_current_member_controller.ex"
-			],
-			[
-				"apiplacon",
-				"web/controllers/api_plan_controller.ex"
 			]
 		],
 		"width": 0.0
