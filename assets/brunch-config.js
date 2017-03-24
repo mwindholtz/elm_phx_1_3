@@ -50,8 +50,8 @@ exports.config = {
       ignore: [/vendor/]
     },
 	elmBrunch: {
-        elmFolder: "../assets/elm",
-	      mainModules: ["HelloElm.elm"],
+        // elmFolder: "../assets/elm",
+	      mainModules: ["elm/HelloElm.elm"],
         makeParameters: ['--debug'],
 	      outputFolder: "../assets/js"
 	    }

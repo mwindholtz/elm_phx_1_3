@@ -3,4 +3,4 @@ module HelloElm exposing (..)
 import Html
 
 main =
-  Html.text "Hello from Elm"
+  Html.text "Hello From Elm"

@@ -11952,7 +11952,7 @@ var _elm_lang$html$Html$menuitem = _elm_lang$html$Html$node('menuitem');
 var _elm_lang$html$Html$menu = _elm_lang$html$Html$node('menu');
 
 var _user$project$HelloElm$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
-	_elm_lang$html$Html$text('Hello from Elm'));
+	_elm_lang$html$Html$text('Hello From Elm'));
 
 var Elm = {};
 Elm['HelloElm'] = Elm['HelloElm'] || {};
