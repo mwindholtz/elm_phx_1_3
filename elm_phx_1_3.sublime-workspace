@@ -247,6 +247,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assets/elm-package.json",
+			"settings":
+			{
+				"buffer_size": 421,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/package.json",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -290,10 +306,15 @@
 	"expanded_folders":
 	[
 		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3",
-		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets"
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets",
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets/elm",
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets/js"
 	],
 	"file_history":
 	[
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets/brunch-config.js",
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets/elm/HelloElm.elm",
+		"/Users/mark/projects/mwindholtz/elm/elm_phx_1_3/assets/elm-package.json",
 		"/Users/mark/projects/mwindholtz/stretchkick2/.gitignore",
 		"/Users/mark/projects/mwindholtz/stretchkick2/kick.sublime-project",
 		"/Users/mark/projects/mwindholtz/stretchkick2/assets/node_modules/express/lib/view.js",
@@ -418,14 +439,11 @@
 		"/Users/mark/projects/mwindholtz/stretchkick2/web/web.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/lib/store/reporter.ex",
 		"/Users/mark/projects/mwindholtz/stretchkick2/test/integrations/activity_integration_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/test/integrations/login_integration_test.exs",
-		"/Users/mark/projects/mwindholtz/stretchkick2/docs/MEETING_2017_03_16.txt",
-		"/Users/mark/projects/mwindholtz/stretchkick2/docs/Post02-EventStorm.txt",
-		"/Users/mark/projects/mwindholtz/stretchkick2/web/models/routine_repo.ex"
+		"/Users/mark/projects/mwindholtz/stretchkick2/test/integrations/login_integration_test.exs"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -457,6 +475,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<script>require",
+			"From",
+			"Hello from Elm",
+			"Hello From",
 			"sublime-project",
 			"subime.proj",
 			"Router.Helpers",
@@ -580,11 +602,7 @@
 			"Plan",
 			"plans",
 			"plan_id",
-			"workouts",
-			"plans_routines",
-			"routine",
-			"plan_id",
-			"plan"
+			"workouts"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -681,8 +699,71 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assets/elm-package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -738,6 +819,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"elm-package.json",
+				"assets/elm-package.json"
+			],
 			[
 				"view",
 				"assets/node_modules/express/lib/view.js"
@@ -1245,10 +1330,6 @@
 			[
 				"routtechcont",
 				"web/controllers/routine_technique_controller.ex"
-			],
-			[
-				"planroutcon",
-				"web/controllers/plan_routine_controller.ex"
 			]
 		],
 		"width": 0.0

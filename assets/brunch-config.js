@@ -38,7 +38,7 @@ exports.config = {
   // Phoenix paths configuration
   paths: {
     // Dependencies and current project directories to watch
-    watched: ["static", "css", "js", "vendor", "elm/HelloElm.elm"],
+    watched: ["static", "css", "js", "vendor", "elm"],
     // Where to compile files to
     public: "../priv/static"
   },
@@ -50,7 +50,7 @@ exports.config = {
       ignore: [/vendor/]
     },
 	elmBrunch: {
-        // elmFolder: "../assets/elm",
+        // elmFolder: "../elm",
 	      mainModules: ["elm/HelloElm.elm"],
         makeParameters: ['--debug'],
 	      outputFolder: "../assets/js"
